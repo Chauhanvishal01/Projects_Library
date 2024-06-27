@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tracker</title>
+    <script src="app.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        td{
+            border: 2px solid #e5e7eb;
+
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container max-w-2xl mx-auto my-0 mt-20 p-5 bg-stone-300 shadow rounded-lg">
+      <h2 class="text-2xl font-bold mb-5">Exprense Tracker</h2>
+      <form action="#" id="expenses" >
+        <input
+          type="text"
+          id="desc"
+          placeholder="Expense Description"
+          required class="mb-1 w-full p-1   border-0 outline-0 rounded-md box-border cursor-pointer"
+        />
+        <br />
+        <select name="category" id="category" required class="cursor-pointer mb-1 w-full p-1 border-0 outline-0 rounded-md box-border ">
+          <option value="">Select Catrgory</option>
+          <option value="Food">Food</option>
+          <option value="Transportation">Transportation</option>
+          <option value="Utilities">Utilities</option>
+          <option value="Entertainment">Entertainment</option>
+          <option value="Other">Other</option>
+        </select>
+        <br />
+        <input type="number" id="amount" placeholder="Amount" required  class="mb-1 w-full p-1 border-0 outline-0  rounded-lg box-border cursor-pointer"/>
+        <br />
+        <input type="submit" value="Add Expense" class="border-0 text-white bg-emerald-400 mb-1 w-full p-1 border-2 border-[#ccc] rounded-lg box-border cursor-pointer hover:bg-emerald-600" />
+      </form>
+      <h3 class="my-2 text-xl font-bold">
+        Expense Summary</h3>
+        <table id="expenseTable" class="border-collapse w-full border-2 border-grey-400">
+          <thead>
+            <tr  >
+              <th class="border-2 border-gray-200 text-center text-white  bg-emerald-400 p-2">Description</th>
+              <th class="border-2 border-gray-200  text-center text-white bg-emerald-400 p-2">Category</th>
+              <th class="border-2  border-gray-200  text-center text-white  bg-emerald-400 p-2">Amount</th>
+            </tr>
+          </thead>
+          <tbody id="expenseList"  >
+         
+          </tbody>
+        </table>
+      
+    </div>
+  </body>
+</html>
