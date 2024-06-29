@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container w-1/2 m-auto mt-20">
+      <h1 class="border-2 border-black rounded-md text-center text-2xl p-2 w-1/2  m-auto">Key Logger</h1>
+      <div class="btn-container flex gap-5 m-5">
+        <button id="start-btn" class="border-2 py-3 px-5 rounded-md">
+          Start Logging Keypresses
+        </button>
+        <button id="stop-btn" class="border-2 py-3 px-5 rounded-md">
+          Stop Logging Keypresses
+        </button>
+      </div>
+      <div class="btn-container mt-5 flex gap-5">
+        <div
+          id="log"
+          class="w-1/2 h-16 p-5 text-center bg-green-400 rounded-md"
+        ></div>
+        <div
+          id="state"
+          class="w-1/2 h-16 p-5 text-center bg-rose-500 rounded-md"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
