@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+li{
+    width: 90%;
+    padding: 8px;
+    border-radius: 10px;
+    background: greenyellow;
+    margin-block:10px ;
+    margin-inline: auto;
+
+
+}
+input{
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+span{
+    font-weight: bold;
+}
