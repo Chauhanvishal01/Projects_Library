@@ -1,14 +1,15 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
 // import Timer from './components/Timer'
-import Jokes from './components/Jokes'
+// import Jokes from './components/Jokes'
+import RandomUser from './components/RandomUser'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       {/* <Timer /> */}
-      <Jokes />
+      {/* <Jokes /> */}
+      <RandomUser />
    </>
   )
 }

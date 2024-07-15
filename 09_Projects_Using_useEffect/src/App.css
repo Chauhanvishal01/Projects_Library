@@ -3,8 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
+    height: 100vh;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .timer {
@@ -34,8 +39,8 @@ body {
     text-align: center;
     padding: 10px;
     border-radius: 10px;
-    border: 2px solid rgba(0,0,0,0.2) ;
-    box-shadow: 10px 10px 10px 2px rgba(0,0,0,0.8);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.8);
 
 
 }
@@ -47,10 +52,11 @@ body {
     margin-top: 50px;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 0 0 10px 2px rgba(0,0,0,0.8);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.8);
 
 }
-.jokes button{
+
+.jokes button {
     border: none;
     padding: 10px 30px;
     background: #dc143c;
@@ -59,6 +65,52 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     cursor: pointer;
-    
+
+
+}
+
+.randomuser {
+    height: 600px;
+    width: 400px;
+    background: #ecf0f3;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.randomuser img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+.randomuser p{
+    padding: 10px;
+    font-size: 14px;
+}
+.randomuser p span{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.randomuser button{
+    position: absolute;
+    left: 25%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: cornflowerblue;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
 
 }
