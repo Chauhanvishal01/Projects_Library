@@ -9,7 +9,7 @@ Fetch a random user from an API and display some information  on the screen. Add
 Countdown Timer:✅
 Build a countdown timer that starts from a specified time (e.g., 10 minutes) and counts down to zero.
 
-Local Storage Example:
+Local Storage Example:✅
 Create an app that saves and retrieves data from the browser's local storage.
 Example:Contact List App
 
