@@ -7,14 +7,25 @@
 body {
     height: 100vh;
     font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
-
+.main{
+    height: 100vh;
+    /* display: grid;
+    grid-template-columns: ; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 20px;
+}
 .timer {
     width: 300px;
     height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+ 
     border: 2px solid gray;
     padding: 10px;
     text-align: center;
@@ -33,9 +44,6 @@ body {
 .jokes {
     height: 400px;
     width: 400px;
-    position: absolute;
-    left: 50%;
-    top: 50px;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
