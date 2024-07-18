@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);
+}
+main .inputs{
+    padding: 10px;
+}
+.inputs input{
+    width: 70%;
+    padding: 10px;
+    outline: 0;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.inputs button{
+    margin-left: 10px;
+    padding: 10px;
+    width: 20%;
+    border: 0;
+    border-radius: 10px;
+    background: crimson;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+.output{
+    padding: 10px;
+}
+.output h1{
+    font-size: 18px;
+}
+.output span{
+    font-weight: bold;
+}
+.output p{
+    padding-block: 10px;
+}
