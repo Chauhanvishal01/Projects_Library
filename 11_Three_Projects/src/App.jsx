@@ -1,10 +1,12 @@
-import Imagegallery from "./components/Imagegallery";
+// import Imagegallery from "./components/Imagegallery";
+import Productreview from './components/Productreview'
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Imagegallery />
+      {/* <Imagegallery /> */}
+      <Productreview />
     </>
   );
 }
