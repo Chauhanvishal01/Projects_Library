@@ -25,3 +25,108 @@ button {
     font-size: 20px;
     cursor: pointer;
 }
+
+/* SuperHero.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .superhero-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 45%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .superhero-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .input-field {
+    padding: 12px;
+    margin-right: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .search-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .superhero-details {
+    margin-top: 20px;
+  }
+  
+  .superhero-image {
+    max-width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .superhero-details h2 {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+  
+  .superhero-details h2:hover {
+    color: crimson;
+  }
+  
+  .superhero-details p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .superhero-details p:hover {
+    color: #007bff;
+  }
+  .list-card h1{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .details-card {
+    flex: 1;
+    height: 800px;
+  }
+  
+  .list-card {
+    flex: 1;
+  }
+  
